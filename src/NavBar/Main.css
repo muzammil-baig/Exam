@@ -1,0 +1,240 @@
+  /* after */
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+  }
+  
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background: linear-gradient(135deg, #28b4a8, #2575fc);
+    padding: 24px 48px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left {
+    flex: 1;
+  }
+  
+  .brand {
+    font-family: cursive;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  .brand:hover{
+    color: #00ffc8;
+  }
+  .nav-link:hover {
+    color: #ff8c00;
+  }
+  
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ff8c00;
+    transition: width 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-box {
+    background-color: white;
+    color: #2575fc;
+    border: 2px solid #2575fc;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-box:hover {
+    background-color: #2575fc;
+    color: white;
+  }
+
+  .page img{
+    width: 100%; 
+  }
+
+  footer img{
+    width: 100%;
+    margin-top: -4px; */
+    /* Only Above 2 Lines */
+     /* margin-top: auto; */
+    /* background: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 14px; */
+  /* } */
+
+  /* .page {
+    padding: 64px;
+    text-align: center;
+    color: #444;
+  } */
+
+  /* .page h2 {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .page p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #555;
+  } */
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    background: linear-gradient(135deg, #28b4a8, #2575fc);
+    padding: 24px 48px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  .left {
+    flex: 1;
+  }
+
+  .brand {
+    color: white;
+    font-size: 29px;
+    font-family: cursive;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: auto;
+  }
+
+  .brand:hover{
+    color: #45ccc1;
+  }
+  
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 39px;
+    justify-content: center;
+    flex: 2;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+  }
+
+  .login-box {
+    padding: 12px 20px;
+    background-color: white;
+    color: #2575fc;
+    border: 2px solid #2575fc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .login-box:hover {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .nav-link:hover{
+    color: #ff8c00;
+  }
+
+  .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff8c00;
+    transition: width 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  .page img {
+    width: 100%;
+  }  
+
+  footer img {
+    width: 100%;
+    margin-top: -4px;
+  }
